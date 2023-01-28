@@ -1,0 +1,26 @@
+.my-books {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.books {
+    overflow-y: auto;
+    max-height: 60vh;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.filter-input {
+    width: 45%;
+    max-width: 300px
+}
+
+.no-books {
+    text-align: center;
+    font-size: 22px;
+}

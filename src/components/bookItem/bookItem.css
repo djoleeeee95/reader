@@ -1,0 +1,12 @@
+.book {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px lightgray;
+}
+
+.plus {
+    margin: auto 0;
+}
+.plus:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.my-book {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px lightgray;
+    padding: 0 10px;
+    animation: fadeIn 0.75s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.book-title {
+    font-size: 16px;
+    padding: 11px 0;
+}
+
+.book-title:hover {
+    cursor: pointer;
+}
+
+.x {
+    color: red;
+    font-size: 1em;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.pi-check {
+    color: green;
+    font-size: 1em;
+    font-weight: bold;
+}

@@ -1,0 +1,36 @@
+.list {
+    max-height: 40vh;
+    overflow-y: auto;
+    padding: 5px;
+}
+
+.book-item-list {
+    width: 500px;
+}
+
+.p-card .p-card-body {
+    padding: 0rem 0.5rem !important;
+}
+
+.spinner {
+    height: fit-content;
+    width: 500px;
+    margin-left: 190px;
+}
+
+@keyframes p-progress-spinner-color {
+    100%,
+    0% {
+        stroke: #007bff;
+    }
+    40% {
+        stroke: #007bff;
+    }
+    66% {
+        stroke: #007bff;
+    }
+    80%,
+    90% {
+        stroke: #007bff;
+    }
+}

@@ -1,0 +1,13 @@
+.header {
+    background-color: #007bff;
+    height: 150px;
+    position: relative;
+}
+
+.search {
+    width: fit-content;
+    z-index: 5;
+    position: absolute;
+    left: calc(50% - 250px);
+    top: 35%
+}

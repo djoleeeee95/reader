@@ -1,0 +1,22 @@
+.categories {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.p-dropdown {
+    width: 300px;
+}
+
+.buttons {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.category-input {
+    width: 100%;
+    min-width: 210px;
+}
+
+.plus-button {
+    min-width: 35px;
+}
